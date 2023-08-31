@@ -1,10 +1,13 @@
 public class Main {
-    // static Boolean a;
-    // static Boolean b;
-    // static Boolean c;
+    static Boolean a;
+    static Boolean b;
+    static Boolean c;
     public static void main(String[] args) throws Exception {
-    //     Boolean bool = (a = true) || (b = true) && (c = true);
-    //     System.out.println(a + ", " + b + ", " + c);
+
+        Boolean bool = (a = true) || (b = true) && (c = true);
+        System.out.println(a + ", " + b + ", " + c);
+        System.out.println(bool);
+        
 
     // String str = "7" + 5 + 10;
     // str = 7 + 5 + "10";
@@ -28,12 +31,12 @@ public class Main {
     // flag = !flag;
     // System.out.println(flag);
 
-    byte b = 1; 
-    //b = b<<1; fail to compile a shift can not go into a byte
-    int c = b<<1;
-    //byte d += b; fail to compile the variable d has no assignment
-    byte e = 0;
-    e += b;
-    System.out.println(c + "\n" + e);
+    // byte b = 1; 
+    // //b = b<<1; fail to compile a shift can not go into a byte
+    // int c = b<<1;
+    // //byte d += b; fail to compile the variable d has no assignment
+    // byte e = 0;
+    // e += b;
+    // System.out.println(c + "\n" + e);
     }
 }

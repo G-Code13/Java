@@ -1,10 +1,10 @@
 public class Palindrome {
-    
-    boolean palindrome(int x){
-        if(x == 0){
+
+    boolean palindrome(int x) {
+        if (x == 0) {
             return true;
         }
-        if(x < 0 || x % 10 == 0){
+        if (x < 0 || x % 10 == 0) {
             return false;
         }
 
@@ -13,7 +13,6 @@ public class Palindrome {
             reverse = reverse * 10 + x % 10;
             x /= 10;
         }
-        
         return (x == reverse) || (x == reverse / 10);
     }
 }

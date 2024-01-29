@@ -21,4 +21,12 @@ public class Min {
         return mini;
     }
     
+
+    static boolean sum(int target, int[] numbers){
+        if(target == 0){
+            return true;
+        }
+
+        return false;
+    }
 }

@@ -24,9 +24,9 @@ public class Main {
                 Exceptions.exceptPalindrome();
             }
 
-            Scanner input1 = new Scanner(System.in);
+            // Scanner input1 = new Scanner(System.in);
             System.out.print("\nWould you like to enter another number? Y/N ");
-            String answer = input1.next();
+            String answer = input.next();
             // input1.close();
 
             // add a try catch here in case the user does not enter y or n
